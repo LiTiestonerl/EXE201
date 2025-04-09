@@ -35,7 +35,7 @@ const Login = () => {
             />
           </div>
 
-          <button type="submit" className="continue-btn">Continue</button>
+          <a href="/accountpage"><button type="submit" className="continue-btn">Continue</button></a>
 
           <p className="account-text">You don't have an account? <a href="/signup">Sign in</a></p>
 

@@ -1,0 +1,103 @@
+.payment-container {
+    background: linear-gradient(to bottom, #f8a7d0, #f1c4e7);
+    padding: 20px;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .payment-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .payment-header h2 {
+    font-size: 30px;
+    color: #ff007b;
+  }
+
+  .payment-options {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .payment-options h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .payment-methods {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .payment-logo {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .cart-items {
+    margin-bottom: 30px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-item p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .item-quantity {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .item-quantity button {
+    background-color: #ff007b;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .item-quantity button:hover {
+    background-color: #e60069;
+  }
+  
+  .total {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .pay-now-btn {
+    background-color: #ff007b;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .pay-now-btn:hover {
+    background-color: #e60069;
+  }
+  

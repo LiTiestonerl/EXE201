@@ -1,0 +1,105 @@
+.main-container {
+    background: linear-gradient(to bottom, #f8a7d0, #f1c4e7);
+    padding: 20px;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .main-header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ff007b;
+  }
+  
+  .upgrade-btn {
+    background-color: #ff007b;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .upgrade-btn:hover {
+    background-color: #e60069;
+  }
+  
+  .choose-style-section {
+    text-align: center;
+  }
+  
+  .choose-style-section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .category-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .category-btn {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 2px solid #ff007b;
+    color: #ff007b;
+    font-size: 14px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .category-btn:hover {
+    background-color: #ff007b;
+    color: white;
+  }
+  
+  .style-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .style-card {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .style-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .style-card p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .pro-badge {
+    background-color: #ff007b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
