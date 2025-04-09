@@ -1,0 +1,75 @@
+.ComingSoon {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.ComingSoon h1 {
+  font-size: 60px;
+  font-family: "Georgia", serif;
+  color: #333;
+  margin-bottom: 50px;
+}
+
+.ComingSoon p {
+  font-size: 23px;
+  color: #ff007b;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 80%; 
+  line-height: 1.5;
+}
+.ComingSoon span {
+  display: block; 
+  margin-right: 10px; 
+}
+
+.ComingSoon form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ComingSoon input {
+  padding: 15px 25px;
+  font-size: 16px;
+  border-radius: 25px; 
+  border: 2px solid #ff007b;
+  width: 300px; 
+  margin-bottom: 30px; 
+}
+
+.ComingSoon button {
+  padding: 15px 30px;
+  background-color: #ff007b;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 300px; 
+  margin-bottom: 200px;
+}
+
+.ComingSoon button:hover {
+  background-color: #e60069; 
+}
+
+.social-media {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center; 
+  gap: 25px;
+}
+
+.social-media a {
+  font-size: 40px;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #ff007b;
+}

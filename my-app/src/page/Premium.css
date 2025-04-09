@@ -1,0 +1,104 @@
+.premium-logo {
+  width: 150px; 
+  height: auto;
+  margin: 0 auto 30px auto; 
+  display: block; 
+}
+.premium-intro {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.premium-intro h2 {
+  font-size: 30px;
+  color: #333;
+}
+
+.premium-intro p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.premium-btn {
+  background-color: #ff007b;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.premium-btn:hover {
+  background-color: #e60069;
+}
+
+.discount-note {
+  color: #ff007b;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.reminder {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+/* Phần gói đăng ký */
+.premium-packages {
+  text-align: center;
+}
+
+.premium-packages h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.packages-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.package-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  text-align: center;
+}
+
+.package-card h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff007b;
+  margin-bottom: 20px;
+}
+
+.package-card p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.package-btn {
+  background-color: #ff007b;
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.package-btn:hover {
+  background-color: #e60069;
+}

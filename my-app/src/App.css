@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to bottom, #f8a7d0, #f1c4e7); 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  padding: 0 20px;
+  margin: 0; 
+}
+
+.App-header {
+  background: linear-gradient(to right, #f8a7d0, #f1c4e7); 
+  min-height: 100px; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: ffffff;
+  font-size: 18px;
+  border-bottom: 2px solid white; 
+  width: 100%; 
+}
+.App-header h1{
+  color: black;
+}
+.App-logo {
+  height: 40px; 
+  pointer-events: none;
+}
+.App-header img{
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; 
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #ff007b;
+}
+

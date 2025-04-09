@@ -1,0 +1,145 @@
+.login-box {
+  padding: 40px; 
+  border-radius: 15px; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+  width: 100%;
+  max-width: 500px; 
+  text-align: center;
+  opacity: 0.9; 
+  transition: opacity 0.3s ease, transform 0.3s ease; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  height: auto; 
+  margin-top: 50px;
+}
+
+.login-box:hover {
+  opacity: 1; 
+  transform: scale(1.05); 
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-container,
+button {
+  width: 100%;
+  margin-bottom: 20px; 
+}
+
+.input-container input {
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ff007b;
+  border-radius: 25px;
+  width: 80%; 
+  margin-top: 5px;
+}
+
+.input-container label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.continue-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff007b;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.continue-btn:hover {
+  background-color: #e60069;
+}
+
+.account-text {
+  font-size: 14px;
+  color: #333;
+}
+
+.account-text a {
+  color: #ff007b;
+  font-weight: bold;
+}
+
+.or-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.or-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #000000;
+}
+
+.or-container span {
+  margin: 0 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.social-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.google-btn {
+  background-color: #db4437;
+  color: white;
+}
+
+.microsoft-btn {
+  background-color: #0078d4;
+  color: white;
+}
+
+.apple-btn {
+  background-color: #000000;
+  color: white;
+}
+
+.social-btn span {
+  margin-right: 10px;
+  font-weight: normal;
+}
+
+.App-logo-google,
+.App-logo-microsoft,
+.App-logo-apple {
+  width: 20px; 
+  height: 20px;
+  margin-right: 10px; 
+}
+
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links a {
+  color: #ff007b;
+  text-decoration: none;
+  font-size: 14px;
+}
