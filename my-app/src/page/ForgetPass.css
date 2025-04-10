@@ -1,0 +1,74 @@
+
+  .forget-password-box {
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    
+  }
+  
+  .forget-password-box h2 {
+    font-size: 24px;
+    color: #ff007b;
+  }
+  
+  .forget-password-box p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .input-container label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    border: 2px solid #ff007b;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    padding: 15px 30px;
+    background-color: #ff007b;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #e60069;
+  }
+  
+  .back-link {
+    margin-top: 10px;
+  }
+  
+  .back-link a {
+    color: #ff007b;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .back-link a:hover {
+    text-decoration: underline;
+  }
+  

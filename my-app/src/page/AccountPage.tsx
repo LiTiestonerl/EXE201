@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
-import './AccountPage.css';
+import React, { useState } from "react";
+import "./AccountPage.css";
+import PicProfile from "../assets/model1.jpg";
 
 const AccountPage = () => {
-  const [activeTab, setActiveTab] = useState('profile');
+  const [activeTab, setActiveTab] = useState("profile");
 
   const handleTabSwitch = (tab: string) => {
     setActiveTab(tab);
@@ -17,28 +18,24 @@ const AccountPage = () => {
       <div className="account-body">
         <div className="tabs">
           <button
-            className={`tab-button ${activeTab === 'profile' ? 'active' : ''}`}
-            onClick={() => handleTabSwitch('profile')}
+            className={`tab-button ${activeTab === "profile" ? "active" : ""}`}
+            onClick={() => handleTabSwitch("profile")}
           >
             Profile
           </button>
           <button
-            className={`tab-button ${activeTab === 'setting' ? 'active' : ''}`}
-            onClick={() => handleTabSwitch('setting')}
+            className={`tab-button ${activeTab === "setting" ? "active" : ""}`}
+            onClick={() => handleTabSwitch("setting")}
           >
             Setting
           </button>
         </div>
 
         {/* Profile Section */}
-        {activeTab === 'profile' && (
+        {activeTab === "profile" && (
           <div className="profile-section">
             <div className="profile-header">
-              <img
-                src="path_to_your_profile_image.jpg"
-                alt="Profile"
-                className="profile-img"
-              />
+              <img src={PicProfile} />
               <p className="profile-name">Nining Abida</p>
             </div>
 
@@ -64,7 +61,7 @@ const AccountPage = () => {
           </div>
         )}
 
-        {activeTab === 'setting' && (
+        {activeTab === "setting" && (
           <div className="setting-section">
             <div className="setting-item">
               <h4>My Profile</h4>
@@ -92,7 +89,9 @@ const AccountPage = () => {
             </div>
           </div>
         )}
-        <a href='/login'><button className="logout-btn">Log Out</button></a>
+        <a href="/login">
+          <button className="logout-btn">Log Out</button>
+        </a>
       </div>
     </div>
   );

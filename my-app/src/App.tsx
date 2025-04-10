@@ -8,6 +8,7 @@ import Premium from "./page/Premium";
 import Main from "./page/Main";
 import Payment from "./page/Payment";
 import AccountPage from "./page/AccountPage";
+import ForgetPass from "./page/ForgetPass";
 import "./App.css";
 import logo from "./assets/logo_spe.png";
 
@@ -57,6 +58,7 @@ function App() {
           <Route path="/main" element={<Main />} />
           <Route path="/accountpage" element={<AccountPage />} />
           <Route path="/payment" element={<Payment />} />
+          <Route path="/forget-pass" element={<ForgetPass />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </div>

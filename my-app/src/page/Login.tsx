@@ -38,6 +38,8 @@ const Login = () => {
           <a href="/accountpage"><button type="submit" className="continue-btn">Continue</button></a>
 
           <p className="account-text">You don't have an account? <a href="/signup">Sign in</a></p>
+          <p className="account-text">You forgot password? <a href="/forget-pass">Forgot Password</a></p>
+
 
           <div className="or-container">
             <div className="or-line"></div>
